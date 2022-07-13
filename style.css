@@ -159,11 +159,6 @@ select {
     color: white;
 }
 
-.intro .flex {
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
 /* Description */
 
 .description h1, .description h2 {
@@ -191,11 +186,6 @@ select {
 
 .bio-intro h1, h2 {
     color: white;
-}
-
-.bio-intro .flex {
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 /* Experience */
@@ -302,7 +292,7 @@ select {
     padding: 40px;
     margin: 40px;
     justify-self: center;
-    background-color: rgb(163, 163, 255);
+    background-color: rgb(132, 132, 255);
 }
 
 .contact-form.card {
@@ -314,7 +304,7 @@ select {
 }
 
 ::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(190, 205, 255);
 }
 
 .contact-form input[type='text'], 
@@ -324,6 +314,7 @@ select {
     width: 100%;
     padding: 3px;
     font-size: 16px;
+    color: white;
     background-color: transparent;
     outline: none;
 }
@@ -340,13 +331,14 @@ select {
     padding: 3px;
     width: 100%;
     height: 150px;
+    border-radius: 5px;
 }
 
 .contact-form .btn {
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
-    background-color: rgb(121, 121, 255);
+    background-color: rgb(173, 173, 255);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
@@ -354,6 +346,9 @@ select {
 
 .contact-form .btn:hover {
     transform: scale(0.98);
+    background-color: rgb(165, 165, 250);
+    transition: all 0.5s linear;
+
 }
 
 .contact-form input:focus {
@@ -614,12 +609,12 @@ select {
 
 @keyframes slideInFromTop {
     0%{transform: translateY(-100%);}
-    100%{transform: translateX(0); visibility: visible;}
+    100%{transform: translateY(0); visibility: visible;}
 }
 
 @keyframes slideInFromBottom {
     0%{transform: translateY(100%);}
-    100%{transform: translateX(0); visibility: visible;}
+    100%{transform: translateY(0); visibility: visible;}
 }
 
 /* Laptop & Under */
