@@ -235,11 +235,13 @@ select {
 /* Img Grid */
 
 .projects .card {
-    background-color: rgb(129, 129, 255);
+    background: rgb(132, 132, 255);
+    background-position: center -20px;
     border-radius: 10px;
-    box-shadow: 0px 3px 10px rgb(24, 11, 143);
+    box-shadow: none;
     padding: 20px;
     margin: 40px;
+    overflow: visible;
 }
 
 .img-grid {
@@ -249,9 +251,9 @@ select {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: rgb(163, 163, 255);
+    background-color: rgb(173, 173, 250);
     border-radius: 10px;
-    box-shadow: 0px 3px 10px rgb(24, 11, 143);
+    box-shadow: none;
     padding: 20px;
     margin: 10px;
 }
@@ -266,11 +268,11 @@ select {
 }
 
 .img-grid img {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 10px solid;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: auto;
 }
 
